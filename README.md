@@ -11,6 +11,8 @@ npm install
     <td> GET </td>
     <td> /search?query="topic name" </td>
     <td> Find array of Questions number  </td>
+  </tr>
+  <tr>
     <td> post </td>
     <td> /topic </td>
     <td> To store schema topics and questions  </td>
