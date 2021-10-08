@@ -7,7 +7,7 @@ interface Topic {
 
 // 2. Create a Schema corresponding to the document interface.
 const schema = new Schema<Topic>({
-  topicNumber: {type: Number, required: true, unique: true},
+  topicNumber: {type: Number, required: true, unique:true},
   name: { type: [String], required: false },
 });
 
